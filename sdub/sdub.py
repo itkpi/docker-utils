@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from jinja2 import Environment, FileSystemLoader
 import os
 import sys
@@ -106,4 +108,3 @@ if __name__ == '__main__':
         command = " ".join(sys.argv)
         print("Command [%s] FAILED !" % command, file=sys.stderr)
         sys.exit(1)
-

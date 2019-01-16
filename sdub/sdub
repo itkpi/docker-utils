@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-python3 /etc/itkpi/utils/sdub.py $1 $2 $3 $4 $5
